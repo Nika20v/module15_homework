@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+   }
+   
+   input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+   }
+   
+   button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   
+   #messages {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #000;
+    border-radius: 4px;
+   }
+   
+   #locationLink {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+   }
